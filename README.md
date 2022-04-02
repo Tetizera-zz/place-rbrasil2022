@@ -2,7 +2,7 @@
 
 O overlay aqui usa o mesmo overlay do r/Superstonk: https://github.com/rplacesuperstonk/rplace-image, com pequenas modificações nossas e de outros brazucas.
 
-### INSTRUÇÕES:
+### INSTRUÇÕES PARA USAR O OVERLAY:
 
 - Instale o TamperMonkey no Chrome ou o seu equivalente do Firefox, o ViolentMonkey
   - TamperMonkey p/ Chrome https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en
@@ -93,9 +93,12 @@ if (window.top !== window.self) {
 
 FYI: The script's code may be changed for a variety of reasons. Because of that, our "diplomats" (Mostly Tet#0001), will contact people on their Discords and subreddits in necessary. Feel free to ping me if I'm in your subreddit's server.
 
+
 ---
 
-# r/place 2022 color HEX codes (as seen on Wikipedia and r/place HTML code)
+# r/place 2022 color HEX codes (as seen on Wikipedia and r/place HTML code).
+
+This is necessary if you wish to copy this code and paint your own pixel art. The dotted points will show up if you use a different HEX code from the one used by r/place.
 
 [image on Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Place_2022_swatches.svg/662px-Place_2022_swatches.svg.png)
 
