@@ -1,6 +1,4 @@
-# Overlay do r/brasil no r/place 2022
-
-[Instruction available in English below]
+# [Instruction available in English below] - Overlay do r/brasil no r/place 2022
 
 O overlay aqui usa o mesmo overlay do r/Superstonk: https://github.com/rplacesuperstonk/rplace-image, com pequenas modificações nossas e de outros brazucas.
 
@@ -49,6 +47,8 @@ Note que o script pode ser atualizado por vários motivos, então pra garantir, 
 - Se tiver dúvidas, pingue @Tet#0001
 
 ---
+
+This is a simple overlay made by r/brasil Discord users to make our life easier when coordinating actions.
 
 ### INSTRUCTIONS:
 
