@@ -133,3 +133,19 @@ dark gray - #898D90
 light gray - #D4D7D9
 
 white - #FFFFFF
+
+dark red - #BE0039
+
+green - #00CC78
+
+dark teal - #00756F
+
+teal - #OO9EAA
+
+indigo - #493AC1
+
+periwinkle - #6A5CFF
+
+pink - #FF3881
+
+dark brown - #6D482F
