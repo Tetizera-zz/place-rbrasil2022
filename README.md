@@ -92,3 +92,41 @@ if (window.top !== window.self) {
 ```
 
 FYI: The script's code may be changed for a variety of reasons. Because of that, our "diplomats" (Mostly Tet#0001), will contact people on their Discords and subreddits in necessary. Feel free to ping me if I'm in your subreddit's server.
+
+---
+
+# r/place 2022 color HEX codes (as seen on Wikipedia and r/place HTML code)
+
+[image on Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Place_2022_swatches.svg/662px-Place_2022_swatches.svg.png)
+
+red - #FF4500
+
+orange - #FFA800
+
+yellow - #FFD635
+
+dark green - #00A368
+
+light green - #7EED56
+
+dark blue - #2450A4
+
+blue - #36980EA
+
+light blue - #51E9F4
+
+dark purple - #811E9F
+
+purple - #B44AC0
+
+light link - #FF99AA
+
+brown - #9C6926
+
+black - #000000
+
+dark gray - #898D90
+
+light gray - #D4D7D9
+
+white - #FFFFFF
