@@ -96,9 +96,16 @@ FYI: The script's code may be changed for a variety of reasons. Because of that,
 
 ---
 
-# r/place 2022 color HEX codes (as seen on Wikipedia and r/place HTML code).
+## .py files explained (python3, pip, numpy, pillow packages required)
 
-This is necessary if you wish to copy this code and paint your own pixel art. The dotted points will show up if you use a different HEX code from the one used by r/place.
+- prepare_place.py
+  - adapts the file to be used on the r/place canvas. The config.txt file provided picks the far left corner pixel in the image.
+- dotter.py
+  - adds the dots with the color of each pixel in the canvas. When you are on r/place, the pixels with the 'correct' color don't have a dot. 
+
+## r/place 2022 color HEX codes (as seen on Wikipedia and r/place HTML code).
+
+This is necessary if you wish to copy this code and draw or paint your own pixel art on r/place. The dots made by `dotter.py` will show up even if you use the right color, but using a different HEX code than the one used by r/place.
 
 [image on Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Place_2022_swatches.svg/662px-Place_2022_swatches.svg.png)
 
