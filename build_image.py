@@ -49,4 +49,4 @@ img  = composite()
 img.save('composited.png')
 
 img_3x = explode(img)
-img_3x.save('exploded.png')
+img_3x.save('image.png')
