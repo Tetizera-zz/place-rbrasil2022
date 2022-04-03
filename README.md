@@ -9,39 +9,8 @@ O overlay aqui usa o mesmo overlay do r/Superstonk: https://github.com/rplacesup
   - OPERA - https://addons.opera.com/en/extensions/details/tampermonkey-beta/
   - ViolenyMonkey p/ Firefox - https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/
 
-- Na aba extensões, ative a extensão TamperMonkey, deixe-a sempre visível, e vá em "Userscripts instalados"
+- Clique [aqui](https://raw.githubusercontent.com/Tetizera/place-rbrasil2022/main/userscript.user.js)
 
-- Clique no símbolo de + (mais) e copie o seguinte código. Depois disso, ative o usercript no r/place e atualize a página.
-
-```
-// ==UserScript==
-// @name         Brasil r/place Template
-// @namespace    http://tampermonkey.net/
-// @version      0.2
-// @description  try to take over the canvas!
-// @author       oralekin, LittleEndu
-// @match        https://hot-potato.reddit.com/embed*
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=reddit.com
-// @grant        none
-// ==/UserScript==
-if (window.top !== window.self) {
-    window.addEventListener('load', () => {
-        document.getElementsByTagName("mona-lisa-embed")[0].shadowRoot.children[0].getElementsByTagName("mona-lisa-canvas")[0].shadowRoot.children[0].appendChild(
-            (function () {
-                const i = document.createElement("img");
-                i.src = "https://raw.githubusercontent.com/Tetizera/place-rbrasil2022/main/image.png";
-                i.onload = () => {
-                    if (i.width === i.height) {
-                        i.style = "position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 1000px;height: 1000px;";
-                    } else {
-                        i.style = "position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 2000px;height: 1000px;";
-                    }
-                };
-                return i;
-            })())
-    }, false);
-}
-```
 Note que o script pode ser atualizado por vários motivos, então pra garantir, entre no Discord e veja TUDO no #rplace-anúncios. Aliás, procure um emoji de bandeira do Brasil e clique nele para receber anúncios dos mods e responsáveis.
 
 - Se tiver dúvidas, pingue @Tet#0001
@@ -57,41 +26,8 @@ This is a simple overlay made by r/brasil Discord users to make our life easier 
   - OPERA - https://addons.opera.com/en/extensions/details/tampermonkey-beta/
   - ViolenyMonkey for Firefox - https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/
 
-- Go to your Extension tab, activate it and allow it to be always visible, and go to "Installed Usercripts"
+- Click [here](https://raw.githubusercontent.com/Tetizera/place-rbrasil2022/main/userscript.user.js)
 
-- Enable the user script on reddit.com/place (it doesn't work on old.reddit!)
-
-- Click on the + symbol on the right corner and copy the code below, enable the script on the r/place site, and refresh the page. You may need to refresh the page multiple times until it works.
-
-```
-// ==UserScript==
-// @name         Brasil r/place Template
-// @namespace    http://tampermonkey.net/
-// @version      0.2
-// @description  try to take over the canvas!
-// @author       oralekin, LittleEndu
-// @match        https://hot-potato.reddit.com/embed*
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=reddit.com
-// @grant        none
-// ==/UserScript==
-if (window.top !== window.self) {
-    window.addEventListener('load', () => {
-        document.getElementsByTagName("mona-lisa-embed")[0].shadowRoot.children[0].getElementsByTagName("mona-lisa-canvas")[0].shadowRoot.children[0].appendChild(
-            (function () {
-                const i = document.createElement("img");
-                i.src = "https://raw.githubusercontent.com/Tetizera/place-rbrasil2022/main/image.png";
-                i.onload = () => {
-                    if (i.width === i.height) {
-                        i.style = "position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 1000px;height: 1000px;";
-                    } else {
-                        i.style = "position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 2000px;height: 1000px;";
-                    }
-                };
-                return i;
-            })())
-    }, false);
-}
-```
 
 FYI: The script's code may be changed for a variety of reasons. Because of that, our "diplomats" (Mostly Tet#0001), will contact people on their Discords and subreddits in necessary. Feel free to ping me if I'm in your subreddit's server.
 
