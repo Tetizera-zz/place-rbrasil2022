@@ -9,7 +9,12 @@ O overlay aqui usa o mesmo overlay do r/Superstonk: https://github.com/rplacesup
   - OPERA - https://addons.opera.com/en/extensions/details/tampermonkey-beta/
   - ViolenyMonkey p/ Firefox - https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/
 
+
+- Clique [aqui](https://raw.githubusercontent.com/Tetizera/place-rbrasil2022/main/userscript.user.js) **ou**
+
 - Na aba extensões, ative a extensão TamperMonkey, deixe-a sempre visível, e vá em "Userscripts instalados"
+
+- Ative o userscript em reddit.com/place (não funciona no old.reddit!)
 
 - Clique no símbolo de + (mais) e copie o seguinte código. Depois disso, ative o usercript no r/place e atualize a página.
 
@@ -42,6 +47,7 @@ if (window.top !== window.self) {
     }, false);
 }
 ```
+
 Note que o script pode ser atualizado por vários motivos, então pra garantir, entre no Discord e veja TUDO no #rplace-anúncios. Aliás, procure um emoji de bandeira do Brasil e clique nele para receber anúncios dos mods e responsáveis.
 
 - Se tiver dúvidas, pingue @Tet#0001
@@ -56,6 +62,8 @@ This is a simple overlay made by r/brasil Discord users to make our life easier 
   - TamperMonkey for Chrome https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en
   - OPERA - https://addons.opera.com/en/extensions/details/tampermonkey-beta/
   - ViolenyMonkey for Firefox - https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/
+
+- Click [here](https://raw.githubusercontent.com/Tetizera/place-rbrasil2022/main/userscript.user.js) **or**
 
 - Go to your Extension tab, activate it and allow it to be always visible, and go to "Installed Usercripts"
 
@@ -92,6 +100,7 @@ if (window.top !== window.self) {
     }, false);
 }
 ```
+
 
 FYI: The script's code may be changed for a variety of reasons. Because of that, our "diplomats" (Mostly Tet#0001), will contact people on their Discords and subreddits in necessary. Feel free to ping me if I'm in your subreddit's server.
 
