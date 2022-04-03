@@ -11,7 +11,7 @@ O overlay aqui usa o mesmo overlay do r/Superstonk: https://github.com/rplacesup
 
 - Na aba extensões, ative a extensão TamperMonkey, deixe-a sempre visível, e vá em "Userscripts instalados"
 
-- Clique no símbolo de + (mais) e copie o seguinte texto:
+- Clique no símbolo de + (mais) e copie o seguinte código. Depois disso, ative o usercript no r/place e atualize a página.
 
 ```
 // ==UserScript==
@@ -59,7 +59,9 @@ This is a simple overlay made by r/brasil Discord users to make our life easier 
 
 - Go to your Extension tab, activate it and allow it to be always visible, and go to "Installed Usercripts"
 
-- Click on the + symbol on the right corner and copy the following code:
+- Enable the user script on reddit.com/place (it doesn't work on old.reddit!)
+
+- Click on the + symbol on the right corner and copy the code below, enable the script on the r/place site, and refresh the page. You may need to refresh the page multiple times until it works.
 
 ```
 // ==UserScript==
