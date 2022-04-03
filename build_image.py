@@ -4,6 +4,16 @@ from pathlib import Path
 from PIL import Image
 import numpy as np
 
+
+#
+# Como usar:
+#  python build_image.py
+#
+# Saida:
+#  image.png - overlay para o userscript
+#  composited.png - imagem menor, para ver o resultado
+#
+
 # Listar os componentes da imagem aqui.
 # Primeiro as do "fundo" e depois as da "frente"
 sprites = [
@@ -45,8 +55,10 @@ def explode(img):
 
 
 # Vamos lá!
-img  = composite()
-img.save('composited.png')
+img = composite()
+
+crop = img.crop((910, 567, 1290, 619))
+crop.save('composited.png')
 
 img_3x = explode(img)
 img_3x.save('image.png')
