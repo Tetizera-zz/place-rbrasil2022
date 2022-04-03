@@ -8,9 +8,7 @@ O overlay aqui usa o mesmo overlay do r/Superstonk: https://github.com/rplacesup
   - TamperMonkey p/ Chrome https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en
   - OPERA - https://addons.opera.com/en/extensions/details/tampermonkey-beta/
   - ViolenyMonkey p/ Firefox - https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/
-
-
-- Clique [aqui](https://raw.githubusercontent.com/Tetizera/place-rbrasil2022/main/userscript.user.js) **ou**
+- Ou clique [aqui](https://raw.githubusercontent.com/Tetizera/place-rbrasil2022/main/userscript.user.js) para instalar em um clique
 
 - Na aba extensões, ative a extensão TamperMonkey, deixe-a sempre visível, e vá em "Userscripts instalados"
 
