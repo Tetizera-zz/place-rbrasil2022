@@ -1,6 +1,4 @@
-# [Instruction available in English below] - Overlay do r/brasil no r/place 2022
-
-O overlay aqui usa o mesmo overlay do r/Superstonk: https://github.com/rplacesuperstonk/rplace-image, com pequenas modificações nossas e de outros brazucas.
+# [Instruction available in English below] - Instruções de uso do overlay do r/brasil no r/place 2022
 
 ### INSTRUÇÕES PARA USAR O OVERLAY:
 
@@ -48,7 +46,7 @@ if (window.top !== window.self) {
 
 Note que o script pode ser atualizado por vários motivos, então pra garantir, entre no Discord e veja TUDO no #rplace-anúncios. Aliás, procure um emoji de bandeira do Brasil e clique nele para receber anúncios dos mods e responsáveis.
 
-- Se tiver dúvidas, pingue @Tet#0001
+- Se tiver dúvidas, pingue @Tet#0001 ou envia uma DM para @Tet#0001
 
 ---
 
@@ -104,6 +102,8 @@ FYI: The script's code may be changed for a variety of reasons. Because of that,
 
 
 ---
+
+the script checks the URL provided, in this case `https://raw.githubusercontent.com/Tetizera/place-rbrasil2022/main/image.png`, to update the script to all users of the script. It usually takes 5 minutes for the new image to be updated to users, but it is not automatic _yet_.
 
 ## .py files explained (python3, pip, numpy, pillow packages required)
 
@@ -165,3 +165,9 @@ periwinkle - #6A5CFF
 pink - #FF3881
 
 dark brown - #6D482F
+
+---
+
+**CREDIT**
+
+r/Superstonk devs: https://github.com/rplacesuperstonk/rplace-image
