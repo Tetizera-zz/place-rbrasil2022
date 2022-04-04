@@ -130,7 +130,7 @@ light green - #7EED56
 
 dark blue - #2450A4
 
-blue - #36980EA
+blue - #3690EA
 
 light blue - #51E9F4
 
@@ -138,7 +138,7 @@ dark purple - #811E9F
 
 purple - #B44AC0
 
-light link - #FF99AA
+light pink - #FF99AA
 
 brown - #9C6926
 
